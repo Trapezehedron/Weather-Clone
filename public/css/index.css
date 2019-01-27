@@ -14,15 +14,7 @@ p {
   color:red;
 }
 body {
-  box
-  margin: 1px;
-  text-align: center;
-  display: inline-block;
-  font-family: myFirstFont;
-  background-image: url("https://i.pinimg.com/originals/49/e0/de/49e0de8fd2f80662cbc2f99809a11400.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: white;
+
 }
 
 h1 {
@@ -101,4 +93,29 @@ h1 {
 .weatherhumidity
 {
   font-family: myFirstFont;
+}
+
+.appcontainer
+{
+  margin: 1px;
+  text-align: center;
+  display: inline-block;
+  font-family: myFirstFont;
+  background-image: url("https://i.pinimg.com/originals/49/e0/de/49e0de8fd2f80662cbc2f99809a11400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.Tokyocontainer
+{
+  width: 100%;
+  margin: 1px;
+  text-align: center;
+  display: inline-block;
+  font-family: myFirstFont;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+
 }
