@@ -9,7 +9,7 @@
 }
 
 p {
-  border:1px solid green;
+  border:1px solid black;
   padding:0px;
   color:red;
 }
@@ -19,14 +19,15 @@ body {
   text-align: center;
   display: inline-block;
   font-family: myFirstFont;
-  background-image: url("http://cdn.onlinewebfonts.com/svg/img_552675.png");
+  background-image: url("https://i.pinimg.com/originals/49/e0/de/49e0de8fd2f80662cbc2f99809a11400.jpg");
   background-repeat: no-repeat;
-  background-size: contain <50%>;
-  background-color: pink;
+  background-size: contain;
+  background-color: white;
 }
 
 h1 {
   font-family: myFirstFont;
+  background-color: white;
 }
 
 .inputContainer{
@@ -63,8 +64,9 @@ h1 {
   font-family: mySecondFont;
   padding: 1rem;
   font-size: 1.5rem;
-  color: white;
+  color: black;
   border-radius: 5px;
+  background-color: white;
 }
 .button:hover {
   color: lime;
