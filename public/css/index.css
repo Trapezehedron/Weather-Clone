@@ -1,0 +1,102 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("../../assets/fonts/moon_light.otf")
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url("../../assets/fonts/moon_bold.otf")
+}
+
+p {
+  border:1px solid green;
+  padding:0px;
+  color:red;
+}
+body {
+  box
+  margin: 1px;
+  text-align: center;
+  display: inline-block;
+  font-family: myFirstFont;
+  background-image: url("http://cdn.onlinewebfonts.com/svg/img_552675.png");
+  background-repeat: no-repeat;
+  background-size: contain <50%>;
+  background-color: pink;
+}
+
+h1 {
+  font-family: myFirstFont;
+}
+
+.inputContainer{
+  width: 100%;
+}
+
+.cityInput{
+  width: 75%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: myFirstFont;
+  text-align: center;
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: myFirstFont;
+  text-align: center;
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: myFirstFont;
+  text-align: center;
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: myFirstFont;
+  text-align: center;
+  color: black;
+}
+
+
+.button{
+  font-family: mySecondFont;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 5px;
+}
+.button:hover {
+  color: lime;
+  background-color: black;
+  cursor: pointer;
+}
+#button-1 {
+  display: inline-block;
+  width: 50%;
+  color: white;
+  background-color: blue;
+  text-align: center;
+}
+#button-2 {
+  display: inline-block;
+  width: 50%;
+  color: white;
+  background-color: red;
+  text-align: center;
+}
+.weathermain{
+  font-family: myFirstFont;
+}
+.weathertemperature{
+  font-family: mySecondFont;
+  display: inline-block;
+}
+.weatherdescription{
+  display: inline-block;
+  font-family: myFirstFont;
+}
+.weatherhumidity
+{
+  font-family: myFirstFont;
+}
